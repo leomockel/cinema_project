@@ -5,10 +5,15 @@ Python project to maintain a cinema database updated with new movies released, a
 🚀 Features
 
 🔍 Look for new release every month on allocine.fr, retrieval of IMDb IDs for each movies
+
 ⚡ Optimized scraping with multithreading
+
 🗄️ PostgreSQL database integration
+
 📊 Data Analysis on PowerBI (directly linked to the database)
+
 🎬 Update your list of watched movies using a Streamlit app
+
 🔐 Secure environment variable management using .env
 
 🛠️ Tech Stack
