@@ -1,0 +1,101 @@
+imdb_id;query;title;year;similarity
+tt34965515;Mr. Nobody Against Putin;Mr. Nobody Against Putin;2025;1.0
+tt28690468;Les Échos du passé;Les échos du passé;2025;1.0
+tt27531478;Les Échos du passé;Les ombres du passé;2024;0.811
+tt33379543;Jana Nayagan;Jana Nayagan;2026;1.0
+tt27610443;Jana Nayagan;Saba Nayagan;2023;0.833
+tt32519622;Red Bird;Red Bird;2026;1.0
+tt34000545;Les Lumières de New York;Les lumières de New York;2025;1.0
+tt31189315;Father Mother Sister Brother;Father Mother Sister Brother;2025;1.0
+tt26680972;Father Mother Sister Brother;Mother Father Sister Brother Frank;2024;0.774
+;;Pile ou face;;
+tt32448429;Pile ou face;Pile ou face ?;2025;0.923
+;;Tout va bien;;
+tt21913366;Tout va bien;Tout va bien;2023;1.0
+tt36598036;Le Studio photo de Nankin;Le Studio photo de Nankin;2025;1.0
+tt36856791;Ma frère;Ma frère;2025;1.0
+;;Le Sud;;
+;;L'Académie des secrets;;
+tt39306665;L'Académie des secrets;L'Académie des secrets;2026;1.0
+tt38191570;Animus Femina;Animus femina;2025;1.0
+;;Les Puritains (Metropolitan Opera);;
+;;City on fire;;
+tt14961770;City on fire;City on Fire;2023;1.0
+tt35495035;L'Affaire Bojarski;L'affaire Bojarski;2026;1.0
+tt38917036;Rien n'est oublié;Rien n'est oublié;2024;1.0
+tt35019998;Parasakthi;Parasakthi;2026;1.0
+;;In the Soup;;
+tt39306660;Premières lunes;Premières lunes;2026;1.0
+tt31183235;Furcy, né libre;Furcy, né libre;2026;1.0
+tt32141377;28 Ans Plus Tard: Le Temple Des Morts;28 ans plus tard: Le temple des morts;2026;1.0
+tt10548174;28 Ans Plus Tard: Le Temple Des Morts;28 ans plus tard;2025;0.604
+tt37844673;Sans pitié;Sans pitié;2026;1.0
+tt29271622;Palestine 36;Palestine 36;2026;1.0
+tt14850054;Greenland Migration;Greenland Migration;2026;1.0
+;;Alice au pays des merveilles: Dive in Wonderland;;
+tt31415482;Eleonora Duse;Eleonora Duse;2026;1.0
+tt33035860;Les Courageux;Les courageux;2026;1.0
+;;Forêt Rouge;;
+tt35932888;Forêt Rouge;Forêt rouge;2026;1.0
+;;Jusqu'à l'aube;;
+tt26731970;Jusqu'à l'aube;Jusqu'à l'aube;2024;1.0
+tt33052227;Jusqu'à l'aube;Jusqu'à l'aube;2023;1.0
+;;Abel;;
+tt33290598;Abel;Abel;2026;1.0
+tt18481486;Abel;Abel;2024;1.0
+;;La Traviata (The Royal Opera);;
+;;Rusalka;;
+tt32642638;Rusalka;Rusalka;2024;1.0
+;;Laguna;;
+tt37963565;Laguna;Laguna;2026;1.0
+;;Le Rendez-vous des quais;;
+tt35489613;Le Rendez-vous des quais;Le Rendez-vous de l'été;2025;0.766
+tt20502488;Le Rendez-vous des quais;Le rendez-vous de Noël;2024;0.783
+tt14905854;Hamnet;Hamnet;2026;1.0
+tt7798632;Hamnet;Hamlet;2025;0.833
+tt32386654;Le Mage du Kremlin;Le mage du Kremlin;2026;1.0
+tt33028778;Primate;Primate;2026;1.0
+tt15435004;Grand Ciel;Grand Ciel;2025;1.0
+;;Olivia;;
+tt27757752;Olivia;Olivia;2025;1.0
+tt9612976;Tafiti;Tafiti;2026;1.0
+tt33335204;Amour Apocalypse;Amour Apocalypse;2025;1.0
+tt32810496;Diamanti;Diamanti;2026;1.0
+tt32020174;Le Retour du projectionniste;Le Retour du projectionniste;2026;1.0
+tt27881474;Une page après l'autre;Une page après l'autre;2026;1.0
+tt30144839;Une page après l'autre;Une bataille après l'autre;2025;0.833
+;;En route!;;
+tt39109723;Megadeth: Behind The Mask;Megadeth: Behind the Mask;2026;1.0
+tt36047817;Megadeth: Behind The Mask;Behind the Mask;2023;0.75
+tt36965995;Megadeth: Behind The Mask;Married a Billionaire Behind the Mask;2025;0.645
+tt37023070;Megadeth: Behind The Mask;Behind the Mask;2025;0.75
+;;Ludovic;;
+tt31350074;Vies et morts de Max Linder;Vie et morts de Max Linder;2026;0.981
+;;La Voie normale;;
+tt31921989;Imperial Princess;Imperial Princess;2024;1.0
+tt35659725;Les Légendaires;Les Légendaires, le film;2026;0.769
+tt29567915;Nuremberg;Nuremberg;2026;1.0
+tt24659372;Nuremberg;Nuremberg;2023;1.0
+tt31050594;Reconnu coupable;Reconnu Coupable;2026;1.0
+tt31777964;Gourou;Gourou;2026;1.0
+tt32558601;Baise-en-ville;Baise-en-ville;2026;1.0
+tt34886821;La Grazia;La grazia;2026;1.0
+tt33311007;Promis le ciel;Promis le ciel;2026;1.0
+tt32263650;Christy and his brother;Christy and His Brother;2026;1.0
+tt29768334;Dreams;Train Dreams;2025;0.667
+tt31710990;Dreams;Dreams;2026;1.0
+tt38938399;Howard Zinn, une histoire populaire américaine 2;Howard Zinn, une histoire populaire américaine 2;2026;1.0
+;;Naked;;
+tt37158598;Naked;Naked;2025;1.0
+tt36599377;La Vie après Siham;La vie après Siham;2025;1.0
+tt5900208;La reconquista;La reconquista;2026;1.0
+tt35838385;La reconquista;La Reconquista;2024;1.0
+;;La Grande rêvasion;;
+;;Le Chasseur de baleines;;
+tt13433814;Le Chasseur de baleines;Papa est un chasseur d'aliens;2023;0.654
+;;Neuf mois;;
+tt33616511;Bel ami;Bel Ami;2024;1.0
+;;Adoption;;
+;;Un Violon sur le Sable fait son Cinéma;;
+;;Elles deux;;
+tt36383461;Elles deux;Elles Deux;2024;1.0
