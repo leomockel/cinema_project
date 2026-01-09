@@ -2,19 +2,21 @@
 
 Python project to maintain a cinema database updated with new movies released, annotate the movies seen and data analysis on your list.
 
+
 🚀 Features
 
-🔍 Look for new release every month on allocine.fr, retrieval of IMDb IDs for each movies
+  🔍 Look for new release every month on allocine.fr, retrieval of IMDb IDs for each movies
 
-⚡ Optimized scraping with multithreading
+  ⚡ Optimized scraping with multithreading
 
-🗄️ PostgreSQL database integration
+  🗄️ PostgreSQL database integration
 
-📊 Data Analysis on PowerBI (directly linked to the database)
+  📊 Data Analysis on PowerBI (directly linked to the database)
 
-🎬 Update your list of watched movies using a Streamlit app
+  🎬 Update your list of watched movies using a Streamlit app
 
-🔐 Secure environment variable management using .env
+  🔐 Secure environment variable management using .env
+  
 
 🛠️ Tech Stack
 
@@ -27,16 +29,17 @@ Jupyter Notebook
 Streamlit
 
 📦 Installation
-1️⃣ Clone the repository
+
+  1️⃣ Clone the repository
 git clone git@github.com:your-username/leo-cinema.git
 cd leo-cinema
 
-2️⃣ Create a virtual environment
+  2️⃣ Create a virtual environment
 python -m venv venv
 source venv/bin/activate   # Linux / Mac
 venv\Scripts\activate      # Windows
 
-3️⃣ Install dependencies
+  3️⃣ Install dependencies
 pip install -r requirements.txt
 
 🔐 Environment Configuration
