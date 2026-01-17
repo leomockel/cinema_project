@@ -30,7 +30,7 @@ def load_movies():
 
 def load_users():
     try:
-        return pd.read_csv("../db_backup/user_list_db.csv", sep=";")
+        return pd.read_csv("db_backup/user_list_db.csv", sep=";")
     except Exception as e:
         st.error(f"Erreur chargement CSV : {e}")
         return pd.DataFrame()
@@ -104,7 +104,7 @@ if not result.empty:
                     cursor.close()
                     conn.close()
 
-                    users.to_csv("../db_backup/user_list_db.csv", sep=";", index=False)
+                    users.to_csv("db_backup/user_list_db.csv", sep=";", index=False)
                     refresh_data()
                     st.success(f"{len(selected)} film(s) marqué(s) comme Vu")
                     time.sleep(2)
@@ -134,7 +134,7 @@ if not result.empty:
                     cursor.close()
                     conn.close()
 
-                    users.to_csv("../db_backup/user_list_db.csv", sep=";", index=False)
+                    users.to_csv("db_backup/user_list_db.csv", sep=";", index=False)
                     refresh_data()
                     st.success(f"{len(selected)} film(s) ajouté(s) à la wishlist")
                     time.sleep(2)
