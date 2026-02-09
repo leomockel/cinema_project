@@ -1,54 +1,124 @@
-imdb_id;query;title;year;similarity
-tt31183235;Furcy, n� libre;Furcy, n� libre;2026;1
-tt35495035;L'Affaire Bojarski;L'affaire Bojarski;2026;1
-tt32141377;28 Ans Plus Tard: Le Temple Des Morts;28 ans plus tard: Le temple des morts;2026;1
-tt37844673;Sans piti�;Sans piti�;2026;1
-tt29271622;Palestine 36;Palestine 36;2026;1
-tt14850054;Greenland Migration;Greenland Migration;2026;1
-tt35487769;Alice au pays des merveilles: Dive in Wonderland;Alice au pays des merveilles: Dive in Wonderland;;
-tt31415482;Eleonora Duse;Eleonora Duse;2026;1
-tt33035860;Les Courageux;Les courageux;2026;1
-tt35932888;For�t Rouge;For�t rouge;2026;1
-tt26731970;Jusqu'� l'aube;Jusqu'� l'aube;2024;1
-tt33290598;Abel;Abel;2026;1
-tt32642638;Rusalka;Rusalka;2024;1
-tt37963565;Laguna;Laguna;2026;1
-;;;;
-;;;;
-tt14905854;Hamnet;Hamnet;2026;1
-tt32386654;Le Mage du Kremlin;Le mage du Kremlin;2026;1
-tt33028778;Primate;Primate;2026;1
-tt15435004;Grand Ciel;Grand Ciel;2025;1
-;;Olivia;;
-tt27757752;Olivia;Olivia;2025;1
-tt9612976;Tafiti;Tafiti;2026;1
-tt33335204;Amour Apocalypse;Amour Apocalypse;2025;1
-tt32810496;Diamanti;Diamanti;2026;1
-tt32020174;Le Retour du projectionniste;Le Retour du projectionniste;2026;1
-tt27881474;Une page apr�s l'autre;Une page apr�s l'autre;2026;1
-tt30144839;Une page apr�s l'autre;Une bataille apr�s l'autre;2025;0.833
-;;En route!;;
-tt39109723;Megadeth: Behind The Mask;Megadeth: Behind the Mask;2026;1
-;;Ludovic;;
-tt31350074;Vies et morts de Max Linder;Vie et morts de Max Linder;2026;0.981
-;;La Voie normale;;
-tt31921989;Imperial Princess;Imperial Princess;2024;1
-tt35659725;Les L�gendaires;Les L�gendaires, le film;2026;0.769
-tt29567915;Nuremberg;Nuremberg;2026;1
-tt24659372;Nuremberg;Nuremberg;2023;1
-tt31050594;Reconnu coupable;Reconnu Coupable;2026;1
-tt31777964;Gourou;Gourou;2026;1
-tt32558601;Baise-en-ville;Baise-en-ville;2026;1
-tt34886821;La Grazia;La grazia;2026;1
-tt33311007;Promis le ciel;Promis le ciel;2026;1
-tt32263650;Christy and his brother;Christy and His Brother;2026;1
-tt29768334;Dreams;Train Dreams;2025;0.667
-tt31710990;Dreams;Dreams;2026;1
-tt38938399;Howard Zinn, une histoire populaire am�ricaine 2;Howard Zinn, une histoire populaire am�ricaine 2;2026;1
-;;Naked;;
-tt37158598;Naked;Naked;2025;1
-tt36599377;La Vie apr�s Siham;La vie apr�s Siham;2025;1
-tt5900208;La reconquista;La reconquista;2026;1
-tt35838385;La reconquista;La Reconquista;2024;1
-tt33616511;Bel ami;Bel Ami;2024;1
-tt36383461;Elles deux;Elles Deux;2024;1
+title;imdb_id;year;similarity;query
+Rental Family - Dans la vie des autres;;;;
+À pied d'œuvre;tt37660587;2025;1.0;À pied d'œuvre
+Marsupilami;tt33029380;2025;1.0;Marsupilami
+Stray Kids: The dominATE Experience;tt39216314;2026;1.0;Stray Kids: The dominATE Experience
+Stray Kids: The Sound;tt26690851;2023;0.607;Stray Kids: The dominATE Experience
+N121 - Bus de nuit;tt35890599;2026;1.0;N121 - Bus de nuit
+The Mastermind;tt33455099;2025;1.0;The Mastermind
+Mastermind;tt27629275;2024;0.833;The Mastermind
+Le gâteau du président;tt36580119;2025;1.0;Le Gâteau du Président
+Retour à Silent Hill;tt22868010;2026;1.0;Retour à Silent Hill
+Retour à Hairy Hill;tt31691919;2023;0.769;Retour à Silent Hill
+Biscuit le chien fantastique;tt29612071;2025;1.0;Biscuit le chien fantastique
+Dis-moi sur quel pied tu danses;tt39557413;2025;1.0;Dis-moi sur quel pied tu danses
+Amadou et Mariam: Sons du Mali;tt37751200;2026;1.0;Amadou et Mariam: Sons du Mali
+200 % Loup;tt27722575;2024;0.947;200% Loup
+La lumière ne meurt jamais;tt28865633;2025;1.0;La lumière ne meurt jamais
+Le grand Phuket;tt30959077;2024;1.0;Le Grand Phuket
+Un bal masqué (Opéra de Paris);;;;
+Une Balle dans la tête;;;;
+Rak;;;;
+À demain sur la lune;tt35932382;2025;1.0;À demain sur la Lune
+Les âmes bossales;tt31557492;2024;1.0;Les âmes bossales
+Woolf Works (The Royal Ballet);;;;
+1974, une partie de campagne;;;;
+Une Partie de Toi;tt27411270;2024;0.622;1974, une partie de campagne
+Paris;;;;
+Paris perdu;tt33039440;2025;0.625;Paris
+Les Habitants;;;;
+Les Habitants;tt32060664;2025;1.0;Les Habitants
+Reporters;;;;
+Numéros zéro;;;;
+With Love;;;;
+With Love;tt38123566;2026;1.0;With Love
+Ashakal Aayiram;tt37537155;2026;1.0;Ashakal Aayiram
+Journal de France;;;;
+Les Années déclic;;;;
+Hurlevent;tt32897959;2026;0.9;"""Hurlevent"""
+LOL 2.0;tt36841139;2026;1.0;LOL 2.0
+L'infiltrée;tt38781723;2026;1.0;L'Infiltrée
+Aucun autre choix;tt1527793;2026;1.0;Aucun autre choix
+Goat: Rêver plus haut;tt27613895;2026;0.93;Goat - rêver plus haut
+Les enfants de la Résistance;tt36508034;2026;1.0;Les Enfants de la Résistance
+Stand by Me;;;;
+Stand by Me;tt29231646;2023;1.0;Stand by Me
+Send Help;tt8036976;2026;1.0;Send Help
+Please Send Help;tt31150178;2024;0.72;Send Help
+Les dimanches;tt35513027;2026;1.0;Les Dimanches
+Soulèvements;tt37833058;2025;1.0;Soulèvements
+Soulèvement;tt27987046;2024;0.957;Soulèvements
+Urchin;tt35715953;2026;1.0;Urchin
+Sainte-Marie-aux-Mines;tt38504753;2026;1.0;Sainte-Marie-aux-Mines
+It's Never Over, Jeff Buckley;tt34966650;2026;1.0;It's Never Over, Jeff Buckley
+It's Never Over Easy;tt37986884;2025;0.735;It's Never Over, Jeff Buckley
+Les immortelles;tt35512802;2026;1.0;Les Immortelles
+The Dangers in My Heart;tt21423786;2023;0.807;The Dangers in my Heart: The Movie
+The Memory in My Heart;tt21466116;2024;0.643;The Dangers in my Heart: The Movie
+Serge Lama: Le Film;tt39276864;2026;0.923;Serge Lama - le film
+Les Voyages de Tereza;tt35340614;2026;1.0;Les Voyages de Tereza
+Personne ne rira;;;;
+303;;;;
+O' Romeo;tt31969779;2026;0.933;O'Romeo
+Marty Supreme;tt32916440;2026;1.0;Marty Supreme
+Sur les chemins du temps;tt33246258;2024;1.0;Sur les chemins du temps
+Sur les chemins noirs;tt15441522;2023;0.756;Sur les chemins du temps
+Le rêve américain;tt36313062;2026;1.0;Le Rêve américain
+Iron Lung;tt27564844;2026;1.0;Iron Lung
+Iron Lung;tt28755718;2024;1.0;Iron Lung
+Coutures;tt34688195;2026;1.0;Coutures
+Le mysterieux regard du flamant rose;tt22237964;2026;0.972;Le Mystérieux regard du flamant rose
+Un monde fragile et merveilleux;tt32622406;2026;1.0;Un monde fragile et merveilleux
+Un monde merveilleux;tt29516588;2024;0.784;Un monde fragile et merveilleux
+Maigret et le mort amoureux;tt33509147;2026;1.0;Maigret et le mort amoureux
+Chase Atlantic: Lost in Heaven;tt39313510;2026;1.0;Chase Atlantic: Lost In Heaven
+La Famille Addams;;;;
+Super Charlie;tt28639152;2026;1.0;Super Charlie
+Kiss of the Spider Woman;tt30400277;2025;1.0;Kiss Of The Spider Woman
+Le rire et le couteau;tt36642485;2025;1.0;Le Rire et le couteau
+La Femme cachée;tt32306046;2024;1.0;La Femme cachée
+Au-delà de Katmandou;tt38682838;2026;1.0;Au-delà de Katmandou
+Saveurs d'exil;tt11167744;2026;1.0;Saveurs d'Exil
+Les saveurs de Noël;tt22505724;2023;0.667;Saveurs d'Exil
+Green Line;tt32881135;2024;1.0;Green Line
+Les Filles;;;;
+Les filles d'Olfa;tt27502426;2023;0.741;Les Filles
+Jeune Pousse;;;;
+La Mémoire, quelle histoire;;;;
+Esprit(s) rebelle(s);;;;
+ATHOS - Au cœur de la Patrouille de France;tt36959545;2026;1.0;ATHOS - Au cœur de la Patrouille de France
+Nouvelle Vague;tt31688586;2025;1.0;Nouvelle Vague
+Scream 7;tt27047903;2026;1.0;Scream 7
+BD Scream 7;tt10784134;2025;0.842;Scream 7
+Le son des souvenirs;tt15799524;2026;1.0;Le Son des souvenirs
+Chers parents;tt35405429;2026;1.0;Chers parents
+Twenty One Pilots: More Than We Ever Imagined;tt39315536;2026;1.0;Twenty One Pilots: More Than We Ever Imagined
+Rue Malaga;tt32429174;2026;1.0;Rue Malaga
+EPiC: Elvis Presley in Concert;tt35003538;2026;1.0;EPiC: Elvis Presley in Concert
+Orwell: 2+2=5;tt27052428;2026;1.0;Orwell: 2+2=5
+5 centimètres par seconde;;;;
+5 Centimètres par seconde;tt33477484;2025;1.0;5 centimètres par seconde
+Trois-cent mille kilomètres par seconde;tt36053783;2025;0.719;5 centimètres par seconde
+Cold Storage;tt8879928;2026;1.0;Cold Storage
+Is This Thing On?;tt28083456;2026;1.0;Is This Thing On?
+The Grandmaster;;;;
+The Grandmaster;tt36816334;2025;1.0;The Grandmaster
+Tales of the Grandmaster;tt21867164;2023;0.769;The Grandmaster
+Un été à la ferme - L'âge d'or;tt38630411;2026;0.723;Un été à la ferme
+James et la pêche géante;;;;
+Woman and Child;tt36631507;2026;1.0;Woman And Child
+Les Femmes Savantes (Comédie-Française);;;;
+Quartier libre;tt37267830;2026;1.0;Quartier libre
+Welcome to Europe;tt33319588;2026;1.0;Welcome to Europe
+Justa;tt28649304;2025;1.0;Justa
+Nosferatu, fantôme de la nuit;;;;
+La Famille Homolka;;;;
+L'Énigme de Kaspar Hauser;;;;
+Giselle (The Royal Ballet);;;;
+La Ballade de Bruno;;;;
+Les Nains aussi ont commencé petits;;;;
+Tenir debout;;;;
+A Rising Fury;;;;
+Echos d'un sombre empire;;;;
+Leçons de ténèbres;;;;
+Ennemis intimes;;;;
