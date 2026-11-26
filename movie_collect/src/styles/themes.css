@@ -1,0 +1,19 @@
+:root {
+    /* Variables synchronisées avec .streamlit/config.toml */
+    --primary: #c3292e;      /* = primaryColor */
+    --bg-main: #FFFFFF;      /* = backgroundColor */
+    --bg-secondary: #F8FAFC; /* = secondaryBackgroundColor */
+    --text: #1E293B;         /* = textColor */
+    
+    
+    /* Espacement et design system */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    
+    --radius: 8px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.1);
+    --shadow-lg: 0 4px 6px rgba(0,0,0,0.1);
+}

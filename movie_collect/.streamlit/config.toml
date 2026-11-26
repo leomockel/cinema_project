@@ -1,0 +1,19 @@
+[theme]
+# Couleurs principales (testées accessibilité WCAG)
+primaryColor = "#be0909"              # Rouge  - boutons, liens
+backgroundColor = "#000000"            # Fond principal
+secondaryBackgroundColor = "#F8FAFC"   # Sidebar, containers
+textColor = "#ffffff"                 # Texte principal
+font = "sans serif"                   # Police de base (ou nom famille custom)
+
+[server]
+# Optimisations performance
+maxUploadSize = 200                   # 200MB max
+enableXsrfProtection = true           # Sécurité CSRF
+runOnSave = true                      # Auto-reload en dev
+
+[browser]
+gatherUsageStats = false              # Pas de tracking Streamlit    
+
+[client]
+showErrorDetails = true

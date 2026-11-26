@@ -62,22 +62,39 @@ nb_wishlist = st.session_state.users["wishlist"].sum() if not st.session_state.u
 
 st.markdown(f"**Films vus :** {nb_vus}  |  **Films à voir (wishlist) :** {nb_wishlist}")
 
-query = st.text_input("Tapez votre recherche", value=st.session_state.search_query)
 
-if st.button("Rechercher"):
+with st.form(key="search_form"):
+    query = st.text_input(
+        "Tapez votre recherche", value=st.session_state.search_query
+    )
+
+    # Le bouton à l'intérieur d'un formulaire DOIT être un st.form_submit_button
+    submit_button = st.form_submit_button(label="Rechercher")
+
+
+if submit_button:
     st.session_state.search_query = query
-    result = movies[(movies["search_fr"].str.contains(query.lower())) | (movies["search_or"].str.contains(query.lower()))]
+    query_lower = query.lower()
+    result = movies[
+        (movies["search_fr"].str.contains(query_lower, na=False))
+        | (movies["search_or"].str.contains(query_lower, na=False))
+    ]
     st.session_state.search_result = result
 else:
+    # Sinon, on conserve le résultat précédent
     result = st.session_state.search_result
 
+# --- Affichage des Résultats ---
 if not result.empty:
     checked_movies = {}
     for idx, row in result.iterrows():
+        # Attention : les clés des checkbox doivent être uniques
         checked_movies[row["movie_id"]] = st.checkbox(
-            f"{row['french_title']} ({row['original_title']}) - IMDb: {row['movie_id']}  -  {row['year']}", 
-            key=f"chk_{row['movie_id']}"
+            f"{row['french_title']} ({row['original_title']}) - IMDb: {row['movie_id']}  -  {row['year']}",
+            key=f"chk_{row['movie_id']}",
         )
+
+
 
     col1, col2 = st.columns(2)
     with col1:
