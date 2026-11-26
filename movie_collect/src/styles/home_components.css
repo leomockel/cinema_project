@@ -1,0 +1,144 @@
+.custom-header {
+    display: inline-block !important; 
+    width: fit-content !important;
+    background: linear-gradient(
+        135deg, 
+        rgba(229, 9, 20, 0.35),
+        rgba(235, 6, 14, 0.25) 
+    ) !important;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius);
+    color: rgb(235, 221, 221) !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+
+/*********************** METRICS COMPONENT ***********************/
+
+/* 1. Le conteneur de la métrique (cadre) */
+[data-testid="stMetric"] {
+    border: 2px solid #E50914 !important;           /* Bordure rouge cinéma */
+    border-radius: 12px !important;                 /* Mêmes coins arrondis que le st.form */
+    background-color: rgba(15, 15, 15, 0.6) !important; /* Mouvement de fond sombre transparent */
+    padding: 1rem !important;
+    transition: all 0.3s ease-in-out !important;    /* Animation fluide pour le survol */
+}
+
+/* 2. Effet d'illumination (glow) au survol de la métrique */
+[data-testid="stMetric"]:hover {
+    border-color: #FF2E38 !important;
+    box-shadow: 0 0 15px rgba(229, 9, 20, 0.8) !important; /* Lueur rouge */
+}
+
+/* 3. Le titre/label au-dessus ("Films vus", "Films à voir") */
+[data-testid="stMetricLabel"] p {
+    color: #FFFFFF !important;                     /* Label en blanc pour la lisibilité */
+    font-size: 1.1rem !important;
+    font-weight: 500 !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* 4. Le chiffre/valeur de la métrique (nb_vus, nb_wishlist) */
+[data-testid="stMetricValue"] {
+    color: #E50914 !important;                     /* ÉCRITURE EN ROUGE */
+    font-weight: bold !important;
+    text-shadow: 0 0 10px rgba(229, 9, 20, 0.4) !important; /* Subtile lueur sous le chiffre */
+}
+
+/*********************** FORM COMPONENT ***********************/
+/* 1. CONTENEUR PRINCIPAL DU FORMULAIRE */
+[data-testid="stForm"] {
+    border: 2px solid #E50914 !important;
+    border-radius: 12px !important;
+    background-color: rgba(15, 15, 15, 0.25) !important;
+    padding: 2rem !important;
+    box-shadow: 0 4px 20px rgba(229, 9, 20, 0.25) !important;
+}
+
+/* 2. TEXTES ET LABELS */
+[data-testid="stForm"] h1, 
+[data-testid="stForm"] h2, 
+[data-testid="stForm"] h3, 
+[data-testid="stForm"] p,
+[data-testid="stForm"] .stTextInput label p {
+    color: #FFFFFF !important;
+}
+
+/* 3. CHAMPS DE SAISIE (INPUTS) */
+[data-testid="stForm"] .stTextInput div[data-baseweb="input"] {
+    border: 1.5px solid #E50914 !important;
+    border-radius: 6px !important;
+    background-color: rgba(0, 0, 0, 0.1) !important; /* Fond bien plus transparent */
+    transition: all 0.3s ease-in-out !important;        /* Transition douce pour les effets */
+}
+
+/* 🌟 Effet d'illumination au SURVOL (Hover) */
+[data-testid="stForm"] .stTextInput div[data-baseweb="input"]:hover {
+    border-color: #FF2E38 !important;
+
+}
+
+/* 💥 Effet d'illumination intense au CLIC / FOCUS */
+[data-testid="stForm"] .stTextInput div[data-baseweb="input"]:focus-within {
+    border-color: #FF0000 !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;      /* Légèrement plus sombre pour bien voir ce qu'on tape */
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8) !important;  /* Glow rouge éclatant */
+}
+
+
+[data-testid="stForm"] .stTextInput input {
+    color: #aa3939 !important;
+}
+
+[data-testid="stForm"] .stTextInput input::placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* 4. BOUTONS */
+[data-testid="stForm"] button,
+[data-testid="stButton"] button {
+    background-color: #E50914 !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    font-weight: bold !important;
+    transition: all 0.3s ease !important;
+}
+
+[data-testid="stForm"] button:hover,
+[data-testid="stButton"] button:hover {
+    background-color: #B20710 !important;
+    box-shadow: 0 0 10px rgba(229, 9, 20, 0.8) !important;
+    cursor: pointer;
+}
+
+
+/*********************** CHECKBOX COMPONENT ***********************/
+
+.stCheckbox input[type="checkbox"]:checked + div {
+    background-color: #9d0d0d !important;
+    border-color: #9d0d0d !important;
+}
+
+
+/*********************** BUTTON COMPONENT ***********************/
+
+/* Style par défaut du bouton */
+.stButton > button {
+    background-color: #DC2626; /* Rouge */
+    color: #FFFFFF;            /* Texte blanc */
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease; /* Animation fluide au survol */
+}
+
+/* Au survol de la souris (hover) */
+.stButton > button:hover {
+    background-color: #B91C1C; /* Rouge plus foncé */
+    color: #FFFFFF;            /* Texte reste blanc */
+    border: none;
+}

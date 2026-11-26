@@ -5,10 +5,19 @@
 selection_film.xlsx
 new_movies.xlsx
 scrap_it.csv
+movie_scraped.xlsx
 movie_scraper_2026_draft.ipynb
+.ipynb_checkpoints/
+
+movie_collect/new_movies.xlsx
+movie_collect/scrap_it.csv
+movie_collect/movie_scraped.xlsx
 
 ###################################
 #          Environement           #
 ###################################
 
 .env
+movie_collect/.streamlit/secret.toml
+movie_collect/.streamlit/.env
+movie_collect/.python-version
